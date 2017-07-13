@@ -43,7 +43,7 @@ def play4():
 	print("Plays audio file: ")
 	note = fourth_string.get()
 	print(note)
-	
+	 
 def play5():
 	print("Plays audio file: ")
 	note = fifth_string.get()
@@ -69,8 +69,8 @@ tuning_presets = Combo(app, options=["Standard Tuning", "Drop D", "Custom"], gri
 # Update Selections
 update = PushButton(app, command=update, text="Update", grid=[0,1], align="right")
 
-# 1st StringDFDFDFDFDF
-first_string = Combo(app, options=["C2", "D2", "E2", "F2", "G2", "A2", "B2", "C3"], grid=[2,0], selected="E2", alignSDSD="left")
+# 1st String
+first_string = Combo(app, options=["C2", "D2", "E2", "F2", "G2", "A2", "B2", "C3"], grid=[2,0], selected="E2", align="left")
 first_play = PushButton(app, command=play1, text="Play", grid=[2,1], align="right")
 
 
